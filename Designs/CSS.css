@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0 100px 0 100px;
+	background-color: #eee8f5; 
+	
+}
+
+p, ul, li, h1, h2, h3, h4 {
+	margin: 0;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+#allcontent {
+	/*top: 10px; */
+	width: 1050px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*background-color: #f5f5fa; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav{
+	position: fixed;
+	height: 100px;
+	/*border-bottom: solid;
+	border-color: #431973; */
+	padding-top: 20px;
+	/*background: #aaadab;*/
+
+}
+
+#nav p {
+	float: left;
+	/*padding-right: 200px;*/
+
+}
+ 
+#nav ul{
+	float: left;
+	padding-left: 218px;
+}
+
+#nav ul li{
+	
+	 
+	float: left;
+	padding: 20px;
+	/*border-left: solid;
+	
+	border-color: #0c70e2; */
+}
+
+#nav ul li a {
+	color: #070707;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+#sub ul{
+	float: right;
+}
+#sub ul li {
+	float: right;
+}
+
+
+
+#nav ul li.activ , #nav ul li:hover  {
+	background: #d8e8fb;
+	color: #e08022;
+}
+
+
+#banner {
+	padding-top: 119px;
+	height: 50px;
+}
+
+#log {
+	max-width: 200px;
+    height: 800px;
+
+}
+
+#subhead {
+	
+	height: 50px;
+	background: #f7bc88;
+}
+
+#subhead h1 {
+	float: left;
+	color: #499bf6;
+}
+
+#subhead ul li{
+	float: right;
+	padding: 20px;
+}
+
+#subhead ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 1.0em;
+}
+
+#main {
+	
+	font-size: 105%;
+	color: #707271;
+	
+	
+	
+}
+
+#main h1{
+	color: #e08022;
+	text-transform: capitalize;
+	
+}
+
+#side {
+
+	background: #802a4f;
+	width: 280px;
+	float: right;
+	padding: 15px;
+	margin: 0px 10px 10px 10px;
+
+}
+#footer {
+	border-top: 5px solid #928977;
+	background: #a9a294;
+	clear: right;
+} 
+
+#footer p {
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+}
