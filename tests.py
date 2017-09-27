@@ -4,6 +4,7 @@ from app import models
 import unittest
 
 class BasicTestCase(unittest.TestCase):
+    """
 
     def test_index(self):
         """Initial test to ensure flask was set up correctly"""
@@ -36,6 +37,7 @@ class UserTestCase(unittest.TestCase):
 
 if __name__=='__main'__:
     unittest.main()
+    """
         
         
 
